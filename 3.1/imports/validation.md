@@ -36,7 +36,7 @@ class UsersImport implements ToModel, WithValidation
         return [
             '1' => Rule::in(['patrick@maatwebsite.nl']),
 
-             // Above is alias for as it always validates in batches
+             // Better explanatory comment needed here
              '*.1' => Rule::in(['patrick@maatwebsite.nl']),
              
              // Can also use callback validation rules
